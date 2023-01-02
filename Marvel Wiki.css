@@ -1,0 +1,160 @@
+body{
+    background-color:#d5e0f2 ;
+}
+header{
+    background-color: azure;
+    border-style: ridge;
+    border-color: black;
+    color:maroon;
+    font-family: tahoma;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+nav{
+    background-color: maroon;
+    color: white;
+    border-style: ridge;
+    border-color:black;
+}
+content{
+    font-family: tahoma;
+    color: azure;
+   font-size: 25px;
+   padding: 10px;
+   vertical-align: middle;
+}
+h1{
+    font-family: tahoma;
+    color: maroon;
+    text-align: left;
+}
+h2{
+    font-family: tahoma;
+    color: blue;
+    text-align: left;
+}
+.image {
+    position:relative;
+    width: 285px;
+    height: 193px ;
+    
+}
+.image__img {
+    display:block;
+    width:275px;
+    height:183px ;
+    align-content: center;
+    
+}
+.image__overlay{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width:285px;
+    height: 193px;
+    background:rgba(0, 0, 0, 0.6);
+    color:white;
+    font-family:tahoma;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay >*{
+    transform:translateY(20px);
+    transition:transform 0.25s;
+}
+.image__overlay:hover{
+    opacity: 1;
+}
+.image__title{
+    font-size:2em;
+    font-weight: bold;
+
+}
+.image__description{
+    font-size: 1.25em;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+h3{
+    font-family: tahoma;
+    color:blue;
+    font-style: italic;
+    text-align:center
+}
+.image1 {
+    position:relative;
+    width: 500px;
+    height: 210px ;
+    
+}
+.image__img1 {
+    display:block;
+    width:500px;
+    height:205px ;
+    align-content: center;
+    
+}
+.image__overlay1{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width:510px;
+    height: 215px;
+    background:rgba(0, 0, 0, 0.6);
+    color:white;
+    font-family:tahoma;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay1 >*{
+    transform:translateY(20px);
+    transition:transform 0.25s;
+}
+.image__overlay1:hover{
+    opacity: 1;
+}
+.image__title1{
+    font-size:2em;
+    font-weight: bold;
+
+}
+.image__description1{
+    font-size: 1.25em;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+.h2__h2{
+    font-family: tahoma;
+    color: black;
+    text-align: left;
+}
+.h2__des{
+    font-family:tahoma;
+    color:darkblue;
+    text-align: left;
+}
+.h4__des{
+    font-family: tahoma;
+    color: darkblue;
+    text-align: left;
+    font-style: normal;
+}
+.h4__{
+    font-family:tahoma;
+    color: maroon;
+    text-decoration: underline;
+}
+.h2__title{
+    font-family: tahoma;
+    color: maroon;
+    text-align: left;
+}
